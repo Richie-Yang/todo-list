@@ -3,7 +3,7 @@ const router = express.Router()
 const Todo = require('../../models/todo')
 
 
-router.get('//new', (req, res) => res.render('new'))
+router.get('/new', (req, res) => res.render('new'))
 
 // create an item in CRUD
 router.post('/', (req, res) => {
